@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "Kalujja Eric",
+    "picture": "./img/speakers/speaker-1.png"
+  },
+  {
+    "id": 2,
+    "name": "Samuel Mugisha",
+    "picture": "./img/speakers/speaker-2.png"
+  },
+  {
+    "id": 3,
+    "name": "Ogenrwot Aaron",
+    "picture": "./img/speakers/speaker-3.png"
+  },
+  {
+    "id": 4,
+    "name": "Edison Abahurire",
+    "picture": "./img/speakers/speaker-4.png"
+  },
+  {
+    "id": 5,
+    "name": "Emmanuel N Christian",
+    "picture": "./img/speakers/speaker-5.png"
+  }
+]

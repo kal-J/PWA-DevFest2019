@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>PWAConf</title>
+    <link rel="stylesheet" href="./styles.css" />
+
+    <link rel="icon" type="image/png" href="./img/icons/favicon.png" />
+
+    <meta name="theme-color" content="#2A3443" />
+    <meta
+      name="description"
+      content="PWA Tutorial Application for GDG Gulu DevFest2019."
+    />
+
+    <!-- iOS -->
+    <link rel="apple-touch-icon" href="./img/icons/icon-144x144.png" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-status-bar-style" content="black" />
+    <meta name="mobile-web-app-title" content="PWAConf" />
+  </head>
+
+  <link rel="manifest" href="./manifest.json" />
+
+  <body>
+    <header><h1>DevFest2019</h1></header>
+
+    <nav>
+      <a href="#speakers">Speakers</a> <a href="#schedule">Schedule</a>
+      <a href="#code-of-conduct">Code of conduct</a>
+    </nav>
+
+    <div class="alert" role="alert" hidden>
+      Your browser does not support ServiceWorker. The app will not be available
+      offline.
+    </div>
+
+    <main>
+      <p>
+        Welcome to GDG Gulu DevFest2019, the biggest Northern Uganda Developer
+        Festival
+      </p>
+
+      <p>
+        The Festival is a single day event focused on celebrating and bringing
+        together techies all over Northern Uganda.
+      </p>
+
+      <h2 id="speakers">Speakers</h2>
+      <div class="speakers"><div class="loader" hidden>Loading...</div></div>
+
+      <h2 id="schedule">Schedule</h2>
+
+      <p>All the presentations will be held in the main auditorium.</p>
+      <div class="schedule"><div class="loader" hidden>Loading...</div></div>
+    </main>
+    <footer>
+      <p>
+        The source code is available on
+        <a href="https://github.com/kal-J/pwa-tutorial">GitHub.</a>
+      </p>
+    </footer>
+    <script src="./app.js"></script>
+  </body>
+</html>
